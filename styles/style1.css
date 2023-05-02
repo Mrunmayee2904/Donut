@@ -1,0 +1,114 @@
+/* imported fonts */
+@import url('https://fonts.cdnfonts.com/css/asdonuts');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+:root{--main-bg-color: #FF2786;}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: white;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background: white;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #dfdfdf;
+}
+
+body{
+    background-image: url(../images/bg-07.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    align-items: flex-start;
+}
+
+header img{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 200px;
+}
+
+h2{
+    font-family: 'Asdonuts', sans-serif;
+    color: #441115;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+button{
+    padding: 7px 30px;
+    background-color: #FF2786;
+    border: 2px solid;
+    border-color: white;
+    margin-left: 40px;
+    border-radius: 40px;
+    color: white;
+    transition: transform 0.1s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+h4{
+    font-family: 'Asdonuts', sans-serif;
+    color: #441115;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+input{
+    width: 210px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 40px;
+    border-color: #FF2786;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.196);
+    text-indent: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.login button{
+    padding: 10px 20px;
+    background-color: white;
+    color: #FF2786;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 900px;
+    margin-top: 40px;
+    border: 2px solid;
+}
+
+.login button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #FF2786;
+}

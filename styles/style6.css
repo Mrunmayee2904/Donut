@@ -1,0 +1,232 @@
+/* imported fonts */
+@import url('https://fonts.cdnfonts.com/css/asdonuts');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{--main-bg-color: #FF2786;}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: white;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background: white;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #dfdfdf;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* <!-- Navigation bar start --> */
+
+header{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    position: fixed;
+    height: 85px;
+    z-index: 100;
+    box-shadow: 2px 2px 5px 2px #ff278541;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 88px;
+    margin-left: 40px;
+    margin-right: 60px;
+    margin-top: 7px;
+}
+
+nav{
+    display: flex;
+    align-items: center;  
+}
+
+nav ul{
+    display: inline-flex;
+    margin-right: 390px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    font-weight: 700;
+    text-decoration: none;
+    padding: 30px 20px;
+    color: var(--main-bg-color);
+}
+
+nav ul li a:hover{
+    color: white;
+    background-color: #FF2786;
+}
+
+.icons a{
+    color: #441115;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.icons a:hover{
+    color: #FF2786;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+}
+.btn a:hover{
+    color: #FF2786;
+}
+
+.btn{
+    padding: 4px 0;
+    color: rgb(255, 255, 255);
+    background-color: var(--main-bg-color);
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    border-color: var(--main-bg-color);
+    border: 2px solid;
+}
+
+.btn:hover{
+    color: var(--main-bg-color);
+    background-color: white;
+    border-color: var(--main-bg-color);
+    border: 2px solid;
+    font-weight: 500;
+}
+
+/* <!-- Navigation bar Ends --> */
+
+
+.container{
+    margin-top: 85px;
+    height: 200px;
+    width: 100vw;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.contact{
+    display: inline-flex;
+}
+
+.container-left{
+    height: 250px;
+    width: 450px;
+}
+
+.details{
+    padding: 30px 0;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #FF2786;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #441115;
+    margin-left: 65px;
+    font-size: 14px;
+}
+
+.socials{
+    font-size: 17px;
+    color: #FF2786;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 65px;
+}
+
+.socials a{
+    color: #FF2786;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+
+}
+
+.socials a:hover{
+    color: #441115;
+}
+
+.container-right{
+    height: 250px;
+    width: 620px;
+    margin-left: 100px;
+}
+
+.right{
+    padding-top: 30px;
+}
+
+.right p{
+    color: #441115;
+}
+
+input{
+    width: 600px;
+    height: 25px;
+    margin-left: 55px;
+    border: 1px #FF2786 solid;
+    margin-top: 3px;
+}
+
+.submit button{
+    padding: 4px 15px;
+    color: rgb(255, 255, 255);
+    background-color: var(--main-bg-color);
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 55px;
+    font-weight: 500;
+    font-size: 16px;
+    border-color: var(--main-bg-color);
+    border: 2px solid;
+    margin-top: 15px;
+}
+
+.submit button:hover{
+    color: var(--main-bg-color);
+    background-color: white;
+    border-color: var(--main-bg-color);
+    border: 2px solid;
+    font-weight: 500;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 70px;
+    background-color: var(--main-bg-color);
+    width: 100vw;
+}
